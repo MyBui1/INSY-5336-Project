@@ -1,1 +1,14 @@
-
+1. Install program files
+2. Install requirements using terminal in program folder: pip install -r requirements.txt
+3. Install NLTK resources onto your machine:
+    Open terminal
+    type: python
+    enter these lines one at a time:
+        import nltk
+        nltk.download('vader_lexicon')
+        nltk.download('stopwords')
+        nltk.download('wordnet')
+        exit()
+4. run the main.py from your terminal:
+    python main.py
+5. ctrl click the http to view the dashboard
